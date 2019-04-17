@@ -22,8 +22,8 @@ export class RkTabBarIndicator extends React.Component {
     componentWidth: PropTypes.number.isRequired,
 
     style: PropTypes.shape({
-      container: View.propTypes.style,
-      content: View.propTypes.style,
+      container: PropTypes.style,
+      content: PropTypes.style,
     }),
   };
   static defaultProps = {

@@ -68,7 +68,7 @@ export class RkCalendarView extends React.Component {
     onVisibleMonthChanged: PropTypes.func,
 
     style: PropTypes.shape({
-      container: View.propTypes.style,
+      container: PropTypes.style,
       header: RkCalendarMonthHeader.propTypes.style,
       month: RkCalendarMonth.propTypes.style,
     }),

@@ -27,7 +27,7 @@ export class RkTabPager extends React.Component {
     componentWidth: PropTypes.number.isRequired,
 
     style: PropTypes.shape({
-      container: View.propTypes.style,
+      container: PropTypes.style,
     }),
   };
   static defaultProps = {

@@ -30,8 +30,8 @@ export class RkTabBar extends React.Component {
 
     style: PropTypes.shape({
       container: PropTypes.shape({
-        base: ScrollView.propTypes.contentContainerStyle,
-        scrollable: ScrollView.propTypes.contentContainerStyle,
+        base: PropTypes.contentContainerStyle,
+        scrollable: PropTypes.contentContainerStyle,
       }),
       tab: RkTab.propTypes.style,
     }),

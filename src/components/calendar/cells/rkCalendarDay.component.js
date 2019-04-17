@@ -49,11 +49,11 @@ export class RkCalendarDay extends React.Component {
 
     style: PropTypes.shape({
       container: PropTypes.shape({
-        base: View.propTypes.style,
-        today: View.propTypes.style,
-        selected: View.propTypes.style,
-        highlighted: View.propTypes.style,
-        disabled: View.propTypes.style,
+        base: PropTypes.style,
+        today: PropTypes.style,
+        selected: PropTypes.style,
+        highlighted: PropTypes.style,
+        disabled: PropTypes.style,
       }),
       text: PropTypes.shape({
         base: Text.propTypes.style,

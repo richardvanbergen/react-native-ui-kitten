@@ -37,7 +37,7 @@ export class RkCalendarMonth extends React.Component {
     daySize: PropTypes.number.isRequired,
 
     style: PropTypes.shape({
-      container: View.propTypes.style,
+      container: PropTypes.style,
       day: RkCalendarDay.propTypes.style,
     }),
   };

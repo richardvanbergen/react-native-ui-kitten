@@ -34,8 +34,8 @@ export class RkTab extends React.Component {
 
     style: PropTypes.shape({
       container: PropTypes.shape({
-        base: View.propTypes.style,
-        selected: View.propTypes.style,
+        base: PropTypes.style,
+        selected: PropTypes.style,
       }),
       title: PropTypes.shape({
         base: Text.propTypes.style,

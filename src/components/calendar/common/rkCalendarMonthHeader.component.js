@@ -16,7 +16,7 @@ export class RkCalendarMonthHeader extends React.Component {
      */
     daySize: PropTypes.number.isRequired,
     style: PropTypes.shape({
-      container: View.propTypes.style,
+      container: PropTypes.style,
       monthName: RkCalendarMonthName.propTypes.style,
       weekDays: RkCalendarDaysNames.propTypes.style,
     }),
